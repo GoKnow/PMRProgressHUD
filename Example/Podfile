@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PMRProgressHUD_Example' do
+  pod 'PMRProgressHUD', :path => '../'
+
+  target 'PMRProgressHUD_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
