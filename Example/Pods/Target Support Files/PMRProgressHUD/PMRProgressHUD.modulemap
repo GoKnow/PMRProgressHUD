@@ -1,0 +1,6 @@
+framework module PMRProgressHUD {
+  umbrella header "PMRProgressHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}
